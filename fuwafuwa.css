@@ -1,0 +1,16 @@
+@charset "utf-8";
+.fuwafuwa{
+  animation-name: fuwafuwa;
+  animation-timing-function: ease-in-out;
+  animation-interation-count: infinite;
+  animation-direction:alternate;
+  animation-duration: 1.5s;
+}
+@keyframe fuwafuwa{
+  0%{
+    transform:translate(0,0px);
+  }
+  100%{
+    transform: translate(0,-15px)
+  }
+}
